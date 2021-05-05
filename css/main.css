@@ -1,0 +1,118 @@
+a:link{
+  color:white;
+  text-decoration:none;}
+a:active {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-image: url('kepek/hatterkep.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.fejlec {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  height: 300px;
+  font-size: xx-large;
+  background-image: url('kepek/back2.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 20px;
+}
+.menu{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+}
+.gomb{
+  display: inline-grid;
+  background-color: black;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+  align-items:center;
+  text-align: center;
+  font-size: large;
+  transition-duration: 0.5s;
+  font-color:whitesmoke;
+  clip-path: ellipse(50% 50% at 50% 50%);
+}
+.gomb:hover {
+  background-color: white;
+  color:black;
+  text-decoration: underline;
+}
+.kozep1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.kozep2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.balra{
+  float: left;
+  margin-right: 50px;
+ }
+h1{
+color: white;
+}
+h2{
+color: white;
+}
+h3{
+color: white;
+}
+p{
+  color: whitesmoke;
+  font-size: large;
+}
+head{
+  align-content: center;
+}
+.tavolsag {
+  margin-top: 25px;
+}
+.jobbra{
+  float: right;
+  margin-right: 25px;
+  clip-path: ellipse(50% 50% at 50% 50%);
+}
+img{
+  margin-right: 25px;
+  margin-left: 25px;
+}
+img:hover {
+  box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
+}
+.szemely {
+    display: inline-grid;
+  background-color: none;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+  align-items:center;
+  text-align: center;
+  font-size: large;
+  transition-duration: 0.5s;
+  font-color:whitesmoke;
+  position: absolute;
+  bottom: 5px;
+}
+.menu2{
+  display:grid;
+  background-color: none;
+  grid-template-columns: auto;
+  float: bottom;
+}
